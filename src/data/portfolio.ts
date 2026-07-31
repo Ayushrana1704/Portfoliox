@@ -2,12 +2,10 @@
 // SINGLE SOURCE OF TRUTH — edit everything about the portfolio here.
 // Items marked TODO are placeholders: replace with your real links.
 // ---------------------------------------------------------------------------
-
-import enterpriseAi from "@/assets/projects/enterprise-ai.png.asset.json";
-import forgeAi from "@/assets/projects/forge-ai.png.asset.json";
-import jobPortal from "@/assets/projects/job-portal.png.asset.json";
-import quickChat from "@/assets/projects/quick-chat.png.asset.json";
-
+import enterpriseAi from "../assets/projects/enterprise-ai.png";
+import forgeAi from "../assets/projects/forge-ai.png";
+import jobPortal from "../assets/projects/job-portal.png";
+import quickChat from "../assets/projects/quick-chat.png";
 export const profile = {
   name: "Ayush Rana",
   firstName: "Ayush",
@@ -106,7 +104,7 @@ export const projects: Project[] = [
     tech: ["FastAPI", "Qdrant", "React 19", "TypeScript", "SQLAlchemy", "Docker"],
     github: "https://github.com/Ayushrana1704/enterprise-rag",
     demo: "https://enterprise-rag-kappa.vercel.app",
-    images: [enterpriseAi.url],
+    images: [enterpriseAi],
     featured: true,
     architecture: [
       "React 19 client",
@@ -136,7 +134,7 @@ export const projects: Project[] = [
     tech: ["FastAPI", "PostgreSQL", "Docker", "React", "TypeScript", "Neon"],
     github: "https://github.com/Ayushrana1704/ForgeAI",
     demo: "https://forge-ai-lac-eta.vercel.app",
-    images: [forgeAi.url],
+    images: [forgeAi],
     architecture: [
       "User brief",
       "Planner agent",
@@ -167,7 +165,7 @@ export const projects: Project[] = [
     tech: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
     github: "https://github.com/Ayushrana1704/Job-Search",
     demo: "https://job-portal-umber-two.vercel.app/",
-    images: [jobPortal.url],
+    images: [jobPortal],
     architecture: [
       "Candidate",
       "Authentication + roles",
@@ -196,7 +194,7 @@ export const projects: Project[] = [
     tech: ["Socket.IO", "Node.js", "JWT", "MongoDB", "React"],
     github: "https://github.com/Ayushrana1704/Quich-Chat",
     demo: "https://quick-chat-client-beryl.vercel.app/login",
-    images: [quickChat.url],
+    images: [quickChat],
     architecture: [
       "User A",
       "Socket.IO handshake",
